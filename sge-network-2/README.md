@@ -139,7 +139,7 @@ sged add-genesis-account {{KEY_NAME}} 10000000000usge
 ```shell
 sged gentx \
   [account_key_name] \
-  5000000000usge \
+  10000000000usge \
   --commission-max-change-rate 0.01 \
   --commission-max-rate 0.2 \
   --commission-rate 0.05 \
@@ -170,7 +170,7 @@ sged start
 
 ## Genesis Time
 
-The genesis transactions should be sent before 0530HRS UTC on 17th March 2023 and the same will be used to publish the `genesis.json` at 0730HRS UTC on 17th March 2023
+The genesis transactions should be sent before 0300HRS UTC on 17th March 2023 and the same will be used to publish the `genesis.json` at 0730HRS UTC on 17th March 2023
 
 <!-- > Submitting Gentx is now closed. Genesis has been published and block generation has started -->
 
@@ -242,20 +242,3 @@ Commit Hash: [462ff3ad9721a1fcfd6edc63654b4b13569a6f9a](https://github.com/sge-n
 ## Binary
 
 The binary can be downloaded from [here](https://github.com/sge-network/sge/releases/tag/v0.0.5)
-
-## Explorer
-
-The Block Explorer for this chain is available [here](https://blockexplorer.testnet.sgenetwork.io/)
-
-## Faucet
-
-Discord Faucet is available [here](https://discord.gg/87K9bPCuDa)
-
-### Documentation
-
-For the most up-to-date documentation please visit [Gitbook](https://six-sigma-sports.gitbook.io/documentation-1/)
-
-### RPC & API
-
-- RPC is available [here](http://rpc.testnet.sgenetwork.io:26657/)
-- API is available [here](http://api.testnet.sgenetwork.io:1317/)
