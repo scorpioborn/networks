@@ -225,9 +225,7 @@
             "params": {},
             "key_vault": {
                 "public_keys": [
-                    "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAdUWfzVUf4BqsHvErsJoXIaIpO60CHXfaaef+xKU3bbY=\n-----END PUBLIC KEY-----",
-                    "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA58w+676YVp61kjXDrteK8hDxulq5zbF6sNHQt3Lt5Ng=\n-----END PUBLIC KEY-----",
-                    "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAw5iPKVbSvyF1A1HDFaWMGlhBp/xTU70i8lMgOml79WM=\n-----END PUBLIC KEY-----"
+                    "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAdUWfzVUf4BqsHvErsJoXIaIpO60CHXfaaef+xKU3bbY=\n-----END PUBLIC KEY-----"
                 ]
             },
             "active_pubkeys_change_proposals": [],
