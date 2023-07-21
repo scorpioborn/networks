@@ -1111,8 +1111,8 @@
         },
         "house": {
             "params": {
-                "min_deposit": "100",
-                "house_participation_fee": "0.100000000000000000"
+                "min_deposit": "10000000",
+                "house_participation_fee": "0.005000000000000000"
             },
             "deposit_list": [],
             "withdrawal_list": []
@@ -1178,7 +1178,7 @@
         },
         "mint": {
             "minter": {
-                "inflation": "0.100000000000000000",
+                "inflation": "0.000000000000000000",
                 "phase_step": 1,
                 "phase_provisions": "100000000000000.000000000000000000",
                 "truncated_tokens": "0.000000000000000000"
@@ -1198,7 +1198,7 @@
         "orderbook": {
             "params": {
                 "max_order_book_participations": "100",
-                "batch_settlement_count": "100",
+                "batch_settlement_count": "1000",
                 "requeue_threshold": "1000"
             },
             "order_book_list": [],
