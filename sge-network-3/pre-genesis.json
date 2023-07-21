@@ -1198,7 +1198,7 @@
         "orderbook": {
             "params": {
                 "max_order_book_participations": "100",
-                "batch_settlement_count": "100",
+                "batch_settlement_count": "1000",
                 "requeue_threshold": "1000"
             },
             "order_book_list": [],
