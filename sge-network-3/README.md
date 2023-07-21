@@ -128,10 +128,10 @@ sged init {{NODE_NAME}} --chain-id sge-network-3
 sged keys add <keyName>
 ```
 
-- Add a genesis account with `10000000000usge tokens`
+- Add a genesis account with `1000000000usge tokens`
 
 ```shell
-sged add-genesis-account {{KEY_NAME}} 10000000000usge
+sged add-genesis-account {{KEY_NAME}} 1000000000usge
 ```
 
 - Make a genesis transaction to become a validator
@@ -139,7 +139,7 @@ sged add-genesis-account {{KEY_NAME}} 10000000000usge
 ```shell
 sged gentx \
   [account_key_name] \
-  10000000000usge \
+  500000000usge \
   --commission-max-change-rate 0.01 \
   --commission-max-rate 0.2 \
   --commission-rate 0.05 \
