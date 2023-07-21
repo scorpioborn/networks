@@ -1110,10 +1110,7 @@
             }
         },
         "house": {
-            "params": {
-                "min_deposit": "100",
-                "house_participation_fee": "0.100000000000000000"
-            },
+            "params": {},
             "deposit_list": [],
             "withdrawal_list": []
         },
