@@ -1,0 +1,2580 @@
+{
+    "genesis_time": "2023-07-25T13:00:00.000000000Z",
+    "chain_id": "sge-network-3",
+    "initial_height": "1",
+    "consensus_params": {
+        "block": {
+            "max_bytes": "5242880",
+            "max_gas": "-1",
+            "time_iota_ms": "1000"
+        },
+        "evidence": {
+            "max_age_num_blocks": "403200",
+            "max_age_duration": "1209600000000000",
+            "max_bytes": "1048576"
+        },
+        "validator": {
+            "pub_key_types": [
+                "ed25519"
+            ]
+        },
+        "version": {}
+    },
+    "app_hash": "",
+    "app_state": {
+        "auth": {
+            "params": {
+                "max_memo_characters": "256",
+                "tx_sig_limit": "7",
+                "tx_size_cost_per_byte": "10",
+                "sig_verify_cost_ed25519": "590",
+                "sig_verify_cost_secp256k1": "1000"
+            },
+            "accounts": [
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "sge1a6mkx462vzjgt4vgsm49wdm2k8395rr5ukkysr",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "sge1jd5zksa9zxn89f8mh7re5f54l8kajlnyc74fl3",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "sge12q378z64w8rg6zjq8rxp8pwj6ry0588v0tx5t2",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "sge1vumvrh9ytrc7hs6nveu6n9p6gxe5k8tvsnnzf8",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+                    "base_vesting_account": {
+                        "base_account": {
+                            "address": "sge1u63hpjfurh50j7y2pw2jk7xjka3834n6m85q32",
+                            "pub_key": null,
+                            "account_number": "0",
+                            "sequence": "0"
+                        },
+                        "original_vesting": [
+                            {
+                                "denom": "usge",
+                                "amount": "100000000000000"
+                            }
+                        ],
+                        "delegated_free": [],
+                        "delegated_vesting": [],
+                        "end_time": "1755090000"
+                    },
+                    "start_time": "1723986000",
+                    "vesting_periods": [
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333337000000"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+                    "base_vesting_account": {
+                        "base_account": {
+                            "address": "sge10hqe0vz2arw2jxq8u4yf53uypczzhy7dgvvss4",
+                            "pub_key": null,
+                            "account_number": "0",
+                            "sequence": "0"
+                        },
+                        "original_vesting": [
+                            {
+                                "denom": "usge",
+                                "amount": "75000000000000"
+                            }
+                        ],
+                        "delegated_free": [],
+                        "delegated_vesting": [],
+                        "end_time": "1755090000"
+                    },
+                    "start_time": "1723986000",
+                    "vesting_periods": [
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "6250000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "6250000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "6250000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "6250000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "6250000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "6250000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "6250000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "6250000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "6250000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "6250000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "6250000000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "6250000000000"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+                    "base_vesting_account": {
+                        "base_account": {
+                            "address": "sge12sd39sd9lujljf8fupxyc6rree7f5ukecnw5uj",
+                            "pub_key": null,
+                            "account_number": "0",
+                            "sequence": "0"
+                        },
+                        "original_vesting": [
+                            {
+                                "denom": "usge",
+                                "amount": "200000000000000"
+                            }
+                        ],
+                        "delegated_free": [],
+                        "delegated_vesting": [],
+                        "end_time": "1786194000"
+                    },
+                    "start_time": "1723986000",
+                    "vesting_periods": [
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333341000000"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+                    "base_vesting_account": {
+                        "base_account": {
+                            "address": "sge1gfe62lpej48v6xuj8g34k9rr8eautrrqczhsus",
+                            "pub_key": null,
+                            "account_number": "0",
+                            "sequence": "0"
+                        },
+                        "original_vesting": [
+                            {
+                                "denom": "usge",
+                                "amount": "8000000000000"
+                            }
+                        ],
+                        "delegated_free": [],
+                        "delegated_vesting": [],
+                        "end_time": "1786194000"
+                    },
+                    "start_time": "1723986000",
+                    "vesting_periods": [
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "333341000000"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "/cosmos.vesting.v1beta1.PeriodicVestingAccount",
+                    "base_vesting_account": {
+                        "base_account": {
+                            "address": "sge1u9z027p4h70qsxd6axe03kz68w2y265v56dcgv",
+                            "pub_key": null,
+                            "account_number": "0",
+                            "sequence": "0"
+                        },
+                        "original_vesting": [
+                            {
+                                "denom": "usge",
+                                "amount": "100000000000000"
+                            }
+                        ],
+                        "delegated_free": [],
+                        "delegated_vesting": [],
+                        "end_time": "1755090000"
+                    },
+                    "start_time": "1723986000",
+                    "vesting_periods": [
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333333000000"
+                                }
+                            ]
+                        },
+                        {
+                            "length": 2592000,
+                            "amount": [
+                                {
+                                    "denom": "usge",
+                                    "amount": "8333337000000"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "sge1dxp905j2cdszw6sdps3vu5plx50vkl964n3m8g",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "sge1spuz5stnkmzytatcewy0kxf0c5zwufkaawhxmu",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "sge149swqyjwcuywc0r4c24djlv2ak2wdy85a7w4yg",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "sge1s5aejy8zxm5fzpyyxw5sg4hzlcmphn84625alg",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "sge1zxw0a732qmkxmgt0l47rcnq9qvtjpym5sdx6p9",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "sge1w3rxthnrj9tfpgknxmqwkayj3qcj6ej7x5pk7x",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "sge1sx3dt0pukydgpyldterca6q2s2hj7lmd8pa78e",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "sge1th2hcpa4ejczeftq4zsjr2z3v577yhla473gz7",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "sge19w2488ntfgpduzqq3sk4j5x387zynwknd3w0k8",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "sge14qekdkj2nmmwea4ufg9n002a3pud23y8mz74x6",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "sge154zr6hyqs46lv93n6m87z5jnl3p5wa0g6q2we6",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "sge1pvhnntuj7hg3lsmklsynhqm5fv4jt7u9cvrj0u",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "sge1etx55kw7tkmnjqz0k0mups4ewxlr324tt4t3fv",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "sge1jt9w26mpxxjsk63mvd4m2ynj0af09cslapqc7m",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "sge1xfxskhcvq966rml245rswmgqgqlctzplk8yd6z",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "sge10n62hkfuqwu7sc9jv2uqunxcu6tu2w3mmefpfv",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                },
+                {
+                    "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                    "address": "sge12t5t6cnae46dgwwth6evpm7lk0pq9hl3eytgk9",
+                    "pub_key": null,
+                    "account_number": "0",
+                    "sequence": "0"
+                }
+            ]
+        },
+        "authz": {
+            "authorization": []
+        },
+        "bank": {
+            "params": {
+                "send_enabled": [],
+                "default_send_enabled": true
+            },
+            "balances": [
+                {
+                    "address": "sge1a6mkx462vzjgt4vgsm49wdm2k8395rr5ukkysr",
+                    "coins": [
+                        {
+                            "denom": "usge",
+                            "amount": "76478500000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "sge1jd5zksa9zxn89f8mh7re5f54l8kajlnyc74fl3",
+                    "coins": [
+                        {
+                            "denom": "usge",
+                            "amount": "100000000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "sge12q378z64w8rg6zjq8rxp8pwj6ry0588v0tx5t2",
+                    "coins": [
+                        {
+                            "denom": "usge",
+                            "amount": "450000000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "sge1vumvrh9ytrc7hs6nveu6n9p6gxe5k8tvsnnzf8",
+                    "coins": [
+                        {
+                            "denom": "usge",
+                            "amount": "500000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "sge1u63hpjfurh50j7y2pw2jk7xjka3834n6m85q32",
+                    "coins": [
+                        {
+                            "denom": "usge",
+                            "amount": "100001000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "sge10hqe0vz2arw2jxq8u4yf53uypczzhy7dgvvss4",
+                    "coins": [
+                        {
+                            "denom": "usge",
+                            "amount": "75001000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "sge12sd39sd9lujljf8fupxyc6rree7f5ukecnw5uj",
+                    "coins": [
+                        {
+                            "denom": "usge",
+                            "amount": "200001000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "sge1gfe62lpej48v6xuj8g34k9rr8eautrrqczhsus",
+                    "coins": [
+                        {
+                            "denom": "usge",
+                            "amount": "8001000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "sge1u9z027p4h70qsxd6axe03kz68w2y265v56dcgv",
+                    "coins": [
+                        {
+                            "denom": "usge",
+                            "amount": "100000500000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "sge1dxp905j2cdszw6sdps3vu5plx50vkl964n3m8g",
+                    "coins": [
+                        {
+                            "denom": "usge",
+                            "amount": "1000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "sge1spuz5stnkmzytatcewy0kxf0c5zwufkaawhxmu",
+                    "coins": [
+                        {
+                            "denom": "usge",
+                            "amount": "1000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "sge149swqyjwcuywc0r4c24djlv2ak2wdy85a7w4yg",
+                    "coins": [
+                        {
+                            "denom": "usge",
+                            "amount": "1000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "sge1s5aejy8zxm5fzpyyxw5sg4hzlcmphn84625alg",
+                    "coins": [
+                        {
+                            "denom": "usge",
+                            "amount": "1000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "sge1zxw0a732qmkxmgt0l47rcnq9qvtjpym5sdx6p9",
+                    "coins": [
+                        {
+                            "denom": "usge",
+                            "amount": "1000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "sge1w3rxthnrj9tfpgknxmqwkayj3qcj6ej7x5pk7x",
+                    "coins": [
+                        {
+                            "denom": "usge",
+                            "amount": "1000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "sge1sx3dt0pukydgpyldterca6q2s2hj7lmd8pa78e",
+                    "coins": [
+                        {
+                            "denom": "usge",
+                            "amount": "1000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "sge1th2hcpa4ejczeftq4zsjr2z3v577yhla473gz7",
+                    "coins": [
+                        {
+                            "denom": "usge",
+                            "amount": "1000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "sge19w2488ntfgpduzqq3sk4j5x387zynwknd3w0k8",
+                    "coins": [
+                        {
+                            "denom": "usge",
+                            "amount": "1000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "sge14qekdkj2nmmwea4ufg9n002a3pud23y8mz74x6",
+                    "coins": [
+                        {
+                            "denom": "usge",
+                            "amount": "1000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "sge154zr6hyqs46lv93n6m87z5jnl3p5wa0g6q2we6",
+                    "coins": [
+                        {
+                            "denom": "usge",
+                            "amount": "1000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "sge1pvhnntuj7hg3lsmklsynhqm5fv4jt7u9cvrj0u",
+                    "coins": [
+                        {
+                            "denom": "usge",
+                            "amount": "1000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "sge1etx55kw7tkmnjqz0k0mups4ewxlr324tt4t3fv",
+                    "coins": [
+                        {
+                            "denom": "usge",
+                            "amount": "1000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "sge1jt9w26mpxxjsk63mvd4m2ynj0af09cslapqc7m",
+                    "coins": [
+                        {
+                            "denom": "usge",
+                            "amount": "1000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "sge1xfxskhcvq966rml245rswmgqgqlctzplk8yd6z",
+                    "coins": [
+                        {
+                            "denom": "usge",
+                            "amount": "1000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "sge10n62hkfuqwu7sc9jv2uqunxcu6tu2w3mmefpfv",
+                    "coins": [
+                        {
+                            "denom": "usge",
+                            "amount": "1000000000"
+                        }
+                    ]
+                },
+                {
+                    "address": "sge12t5t6cnae46dgwwth6evpm7lk0pq9hl3eytgk9",
+                    "coins": [
+                        {
+                            "denom": "usge",
+                            "amount": "1000000000"
+                        }
+                    ]
+                }
+            ],
+            "supply": [
+                {
+                    "denom": "usge",
+                    "amount": "1110000000000000"
+                }
+            ],
+            "denom_metadata": []
+        },
+        "bet": {
+            "params": {
+                "batch_settlement_count": 1000,
+                "max_bet_by_uid_query_count": 10,
+                "constraints": {
+                    "min_amount": "1000000",
+                    "fee": "0"
+                }
+            },
+            "bet_list": [],
+            "pending_bet_list": [],
+            "settled_bet_list": [],
+            "uid2id_list": [],
+            "stats": {
+                "count": "0"
+            }
+        },
+        "capability": {
+            "index": "1",
+            "owners": []
+        },
+        "crisis": {
+            "constant_fee": {
+                "denom": "usge",
+                "amount": "500000000000"
+            }
+        },
+        "distribution": {
+            "params": {
+                "community_tax": "0.000000000000000000",
+                "base_proposer_reward": "0.010000000000000000",
+                "bonus_proposer_reward": "0.040000000000000000",
+                "withdraw_addr_enabled": true
+            },
+            "fee_pool": {
+                "community_pool": []
+            },
+            "delegator_withdraw_infos": [],
+            "previous_proposer": "",
+            "outstanding_rewards": [],
+            "validator_accumulated_commissions": [],
+            "validator_historical_rewards": [],
+            "validator_current_rewards": [],
+            "delegator_starting_infos": [],
+            "validator_slash_events": []
+        },
+        "evidence": {
+            "evidence": []
+        },
+        "feegrant": {
+            "allowances": []
+        },
+        "genutil": {
+            "gen_txs": [
+                {
+                    "body": {
+                        "messages": [
+                            {
+                                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                                "description": {
+                                    "moniker": "Artifact",
+                                    "identity": "70C162B0473634FD",
+                                    "website": "https://artifact-staking.io",
+                                    "security_contact": "",
+                                    "details": "Next level web3 infrastructure"
+                                },
+                                "commission": {
+                                    "rate": "0.050000000000000000",
+                                    "max_rate": "0.200000000000000000",
+                                    "max_change_rate": "0.010000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "sge1dxp905j2cdszw6sdps3vu5plx50vkl964n3m8g",
+                                "validator_address": "sgevaloper1dxp905j2cdszw6sdps3vu5plx50vkl960f3pz4",
+                                "pubkey": {
+                                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                                    "key": "Wj3ZBLIapPl+xLQ53gnfGd4zX0HndVK8yFTnBqejPMI="
+                                },
+                                "value": {
+                                    "denom": "usge",
+                                    "amount": "500000000"
+                                }
+                            }
+                        ],
+                        "memo": "51e4e7b04d2f669f5efa53e8d95891fa04e4c5b9@192.168.86.213:26656",
+                        "timeout_height": "0",
+                        "extension_options": [],
+                        "non_critical_extension_options": []
+                    },
+                    "auth_info": {
+                        "signer_infos": [
+                            {
+                                "public_key": {
+                                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                                    "key": "A6aGqREcnKgHzUlTa7cK3bpNaLUqNqf7mJjeOJ8J/aY7"
+                                },
+                                "mode_info": {
+                                    "single": {
+                                        "mode": "SIGN_MODE_DIRECT"
+                                    }
+                                },
+                                "sequence": "0"
+                            }
+                        ],
+                        "fee": {
+                            "amount": [],
+                            "gas_limit": "200000",
+                            "payer": "",
+                            "granter": ""
+                        }
+                    },
+                    "signatures": [
+                        "1dwws7HK4PRfl4tycJ4puIlZyfnI7ZL2lEsadWpjh7JoPSIJymLZRFOftgNbolTdHQdcC50iNjgCKVWhjZVbmg=="
+                    ]
+                },
+                {
+                    "body": {
+                        "messages": [
+                            {
+                                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                                "description": {
+                                    "moniker": "9tails",
+                                    "identity": "",
+                                    "website": "",
+                                    "security_contact": "",
+                                    "details": ""
+                                },
+                                "commission": {
+                                    "rate": "0.050000000000000000",
+                                    "max_rate": "0.200000000000000000",
+                                    "max_change_rate": "0.010000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "sge1spuz5stnkmzytatcewy0kxf0c5zwufkaawhxmu",
+                                "validator_address": "sgevaloper1spuz5stnkmzytatcewy0kxf0c5zwufka85hu7p",
+                                "pubkey": {
+                                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                                    "key": "bz0oTpCPdfZWZJjQgrPO+Dzo+5u+7osD/aukxBxaUWc="
+                                },
+                                "value": {
+                                    "denom": "usge",
+                                    "amount": "500000000"
+                                }
+                            }
+                        ],
+                        "memo": "7f06552a64b0eed2c4ebd15003a360dbb752e9ce@10.50.4.210:26656",
+                        "timeout_height": "0",
+                        "extension_options": [],
+                        "non_critical_extension_options": []
+                    },
+                    "auth_info": {
+                        "signer_infos": [
+                            {
+                                "public_key": {
+                                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                                    "key": "AzGa75Erv7RVUDdCAAKYqEWkA8nWLGNfI7InDRbss+8k"
+                                },
+                                "mode_info": {
+                                    "single": {
+                                        "mode": "SIGN_MODE_DIRECT"
+                                    }
+                                },
+                                "sequence": "0"
+                            }
+                        ],
+                        "fee": {
+                            "amount": [],
+                            "gas_limit": "200000",
+                            "payer": "",
+                            "granter": ""
+                        }
+                    },
+                    "signatures": [
+                        "nn8P1XJHlzc3u+4slS4KNwtI8oeNxoVlfmE57140s+Fz5WI1ccfJgP06q1U0xn3tQA2CJH9ucPAsLHNwMWW0xA=="
+                    ]
+                },
+                {
+                    "body": {
+                        "messages": [
+                            {
+                                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                                "description": {
+                                    "moniker": "aries",
+                                    "identity": "",
+                                    "website": "",
+                                    "security_contact": "",
+                                    "details": ""
+                                },
+                                "commission": {
+                                    "rate": "0.050000000000000000",
+                                    "max_rate": "0.200000000000000000",
+                                    "max_change_rate": "0.010000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "sge149swqyjwcuywc0r4c24djlv2ak2wdy85a7w4yg",
+                                "validator_address": "sgevaloper149swqyjwcuywc0r4c24djlv2ak2wdy858yw0p4",
+                                "pubkey": {
+                                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                                    "key": "XHzUfIRd7BvjY70T048RLDWje28FLtgRmMLF/jXbm/Q="
+                                },
+                                "value": {
+                                    "denom": "usge",
+                                    "amount": "500000000"
+                                }
+                            }
+                        ],
+                        "memo": "1ae72dbbd1e0143cf2a69441e45eec6dc9212410@10.50.4.237:26656",
+                        "timeout_height": "0",
+                        "extension_options": [],
+                        "non_critical_extension_options": []
+                    },
+                    "auth_info": {
+                        "signer_infos": [
+                            {
+                                "public_key": {
+                                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                                    "key": "AwV20yD5DcdBTTqcoEP/theN2C8EW/aHMYM7uQEGSj6A"
+                                },
+                                "mode_info": {
+                                    "single": {
+                                        "mode": "SIGN_MODE_DIRECT"
+                                    }
+                                },
+                                "sequence": "0"
+                            }
+                        ],
+                        "fee": {
+                            "amount": [],
+                            "gas_limit": "200000",
+                            "payer": "",
+                            "granter": ""
+                        }
+                    },
+                    "signatures": [
+                        "LS8eTP4r69Go2rAoEHE98G1bbbqVN4WxEJT4ZZTHe5AUL1Wd+s9SinMyZX2qObcjo6nfWNw1sPJFcROiIaQLpg=="
+                    ]
+                },
+                {
+                    "body": {
+                        "messages": [
+                            {
+                                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                                "description": {
+                                    "moniker": "Chill Validation",
+                                    "identity": "3820B9E30B3BD99E",
+                                    "website": "www.chillvalidation.com",
+                                    "security_contact": "",
+                                    "details": "Chill Validation Services - We take care of the Validation so that you can Chill :)"
+                                },
+                                "commission": {
+                                    "rate": "0.050000000000000000",
+                                    "max_rate": "0.200000000000000000",
+                                    "max_change_rate": "0.100000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "sge1s5aejy8zxm5fzpyyxw5sg4hzlcmphn84625alg",
+                                "validator_address": "sgevaloper1s5aejy8zxm5fzpyyxw5sg4hzlcmphn84qs5864",
+                                "pubkey": {
+                                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                                    "key": "7gh20gbQsMbwFza8it9OjqlRfpBUbfcmA4lUjHvQWi4="
+                                },
+                                "value": {
+                                    "denom": "usge",
+                                    "amount": "500000000"
+                                }
+                            }
+                        ],
+                        "memo": "79f82e119e2643a77c9dc4f5b35809b8ff11b02e@8.8.8.8:26656",
+                        "timeout_height": "0",
+                        "extension_options": [],
+                        "non_critical_extension_options": []
+                    },
+                    "auth_info": {
+                        "signer_infos": [
+                            {
+                                "public_key": {
+                                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                                    "key": "AgCtDWMsUYO9BzwqjigK53H6Iu4yXUw7+sSSqED/20vo"
+                                },
+                                "mode_info": {
+                                    "single": {
+                                        "mode": "SIGN_MODE_DIRECT"
+                                    }
+                                },
+                                "sequence": "0"
+                            }
+                        ],
+                        "fee": {
+                            "amount": [],
+                            "gas_limit": "200000",
+                            "payer": "",
+                            "granter": ""
+                        }
+                    },
+                    "signatures": [
+                        "XsasoxeDsVJjdDvlQKyE5S0XAc2HOnZbj1uqFKfniU8BiIWQ/i4OAow0M5tP+k3Cl/xxyGwbP9bWbkwc/mWreQ=="
+                    ]
+                },
+                {
+                    "body": {
+                        "messages": [
+                            {
+                                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                                "description": {
+                                    "moniker": "Cros-nest",
+                                    "identity": "",
+                                    "website": "",
+                                    "security_contact": "",
+                                    "details": "Testnet validator"
+                                },
+                                "commission": {
+                                    "rate": "0.050000000000000000",
+                                    "max_rate": "0.200000000000000000",
+                                    "max_change_rate": "0.010000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "sge1zxw0a732qmkxmgt0l47rcnq9qvtjpym5sdx6p9",
+                                "validator_address": "sgevaloper1zxw0a732qmkxmgt0l47rcnq9qvtjpym52hxqyc",
+                                "pubkey": {
+                                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                                    "key": "AH0k0uoaYf/ikIl0Przj77UKzf+qpnhH+n1QvnRA01g="
+                                },
+                                "value": {
+                                    "denom": "usge",
+                                    "amount": "500000000"
+                                }
+                            }
+                        ],
+                        "memo": "1e5f1fa5725ab5e09209b7935c6ea3f57b2711ed@[2a01:4f9:1a:9462::3]:26656",
+                        "timeout_height": "0",
+                        "extension_options": [],
+                        "non_critical_extension_options": []
+                    },
+                    "auth_info": {
+                        "signer_infos": [
+                            {
+                                "public_key": {
+                                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                                    "key": "A3D8+DNQfIpj4eHHoumGIZt3tJNZJiXJqQNV+IkWG9K9"
+                                },
+                                "mode_info": {
+                                    "single": {
+                                        "mode": "SIGN_MODE_DIRECT"
+                                    }
+                                },
+                                "sequence": "0"
+                            }
+                        ],
+                        "fee": {
+                            "amount": [],
+                            "gas_limit": "200000",
+                            "payer": "",
+                            "granter": ""
+                        }
+                    },
+                    "signatures": [
+                        "IjdWDLDgtMDwFpZgFge4Tzz+YJ3RxSUQ8on3ynA/mF54j4xqFsSxkDgtiT0Rwm1a041rDopA/7F0KnJ+pSWZDA=="
+                    ]
+                },
+                {
+                    "body": {
+                        "messages": [
+                            {
+                                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                                "description": {
+                                    "moniker": "genznodes",
+                                    "identity": "86D0A9427E51D239",
+                                    "website": "https://genznodes.dev",
+                                    "security_contact": "genzbit@genznodes.dev",
+                                    "details": "IBC Relayers \u0026 Non-Custodial Staking Service Provider with 24/7 monitoring | Stake and Earn Rewards"
+                                },
+                                "commission": {
+                                    "rate": "0.050000000000000000",
+                                    "max_rate": "0.200000000000000000",
+                                    "max_change_rate": "0.010000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "sge1w3rxthnrj9tfpgknxmqwkayj3qcj6ej7x5pk7x",
+                                "validator_address": "sgevaloper1w3rxthnrj9tfpgknxmqwkayj3qcj6ej7uwpvmm",
+                                "pubkey": {
+                                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                                    "key": "cdh9mbSE2QW1CZxfpjbAFtNW6S93dkKrr4vh8GG87DY="
+                                },
+                                "value": {
+                                    "denom": "usge",
+                                    "amount": "500000000"
+                                }
+                            }
+                        ],
+                        "memo": "13408a5d533afc428a235aa7f58915302c3fccb6@185.246.86.199:26656",
+                        "timeout_height": "0",
+                        "extension_options": [],
+                        "non_critical_extension_options": []
+                    },
+                    "auth_info": {
+                        "signer_infos": [
+                            {
+                                "public_key": {
+                                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                                    "key": "AvV3TqbaRLBKGJvMPG5iRWg7O3iv0JnlnsmcBiPH4RCu"
+                                },
+                                "mode_info": {
+                                    "single": {
+                                        "mode": "SIGN_MODE_DIRECT"
+                                    }
+                                },
+                                "sequence": "0"
+                            }
+                        ],
+                        "fee": {
+                            "amount": [],
+                            "gas_limit": "200000",
+                            "payer": "",
+                            "granter": ""
+                        }
+                    },
+                    "signatures": [
+                        "l3UtY1DzP/NEhS1cBsDSNIZUdH+jc1CPRozP0xZjU3t+X4AcI9sUTmU+AhBcYRZDHbV372PBKCJdCjqvUjw7pQ=="
+                    ]
+                },
+                {
+                    "body": {
+                        "messages": [
+                            {
+                                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                                "description": {
+                                    "moniker": "havelock",
+                                    "identity": "",
+                                    "website": "",
+                                    "security_contact": "",
+                                    "details": ""
+                                },
+                                "commission": {
+                                    "rate": "0.050000000000000000",
+                                    "max_rate": "0.200000000000000000",
+                                    "max_change_rate": "0.010000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "sge1sx3dt0pukydgpyldterca6q2s2hj7lmd8pa78e",
+                                "validator_address": "sgevaloper1sx3dt0pukydgpyldterca6q2s2hj7lmdamayzy",
+                                "pubkey": {
+                                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                                    "key": "xaWoHWqr9wJsPZjtL1VDtkmzpEr1xUelESRndQuUMTg="
+                                },
+                                "value": {
+                                    "denom": "usge",
+                                    "amount": "500000000"
+                                }
+                            }
+                        ],
+                        "memo": "7bd23b2967a99b19800282c34b5f509ada38c9ab@10.50.4.44:26656",
+                        "timeout_height": "0",
+                        "extension_options": [],
+                        "non_critical_extension_options": []
+                    },
+                    "auth_info": {
+                        "signer_infos": [
+                            {
+                                "public_key": {
+                                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                                    "key": "Ag9pMXEqYICAOhra1N7p9XU0hWiVPuTB82ASvGEPGCHX"
+                                },
+                                "mode_info": {
+                                    "single": {
+                                        "mode": "SIGN_MODE_DIRECT"
+                                    }
+                                },
+                                "sequence": "0"
+                            }
+                        ],
+                        "fee": {
+                            "amount": [],
+                            "gas_limit": "200000",
+                            "payer": "",
+                            "granter": ""
+                        }
+                    },
+                    "signatures": [
+                        "ZIRsGUu2G4/vjwHVxNItviDYE64UN3AuTagbdu3hlkciqRRmPkB0wlkvQkHqTHf1QNgcQJu+lKRIpD0QfcQJoQ=="
+                    ]
+                },
+                {
+                    "body": {
+                        "messages": [
+                            {
+                                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                                "description": {
+                                    "moniker": "jayjay",
+                                    "identity": "34589DAF06970635",
+                                    "website": "https://twitter.com/javalry1",
+                                    "security_contact": "",
+                                    "details": "community driven validator"
+                                },
+                                "commission": {
+                                    "rate": "0.050000000000000000",
+                                    "max_rate": "0.200000000000000000",
+                                    "max_change_rate": "0.010000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "sge1th2hcpa4ejczeftq4zsjr2z3v577yhla473gz7",
+                                "validator_address": "sgevaloper1th2hcpa4ejczeftq4zsjr2z3v577yhla0y3j8r",
+                                "pubkey": {
+                                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                                    "key": "Sj3H5bcj0J4p7iaIwQWTSQHqkyLwkXwCsNSLxEQTR6k="
+                                },
+                                "value": {
+                                    "denom": "usge",
+                                    "amount": "500000000"
+                                }
+                            }
+                        ],
+                        "memo": "a37dfffae53ba7a80ef1a54c6906c2072985a3ee@65.108.2.41:26656",
+                        "timeout_height": "0",
+                        "extension_options": [],
+                        "non_critical_extension_options": []
+                    },
+                    "auth_info": {
+                        "signer_infos": [
+                            {
+                                "public_key": {
+                                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                                    "key": "Aoai44ToTVQGjVl4dAcY+P5w5JDU0+P4tGaVQ8o4TZke"
+                                },
+                                "mode_info": {
+                                    "single": {
+                                        "mode": "SIGN_MODE_DIRECT"
+                                    }
+                                },
+                                "sequence": "0"
+                            }
+                        ],
+                        "fee": {
+                            "amount": [],
+                            "gas_limit": "200000",
+                            "payer": "",
+                            "granter": ""
+                        }
+                    },
+                    "signatures": [
+                        "4E9IiPoJpLWv99Xjhm1Nsy3FA+BX0QBC9DG8G4YjG5EbuDy2rfpiH3dH5/lc7KdSO1LXyTXAoKE3bzBQV/xoow=="
+                    ]
+                },
+                {
+                    "body": {
+                        "messages": [
+                            {
+                                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                                "description": {
+                                    "moniker": "kingnodes 👑",
+                                    "identity": "30E6CD38D9721222",
+                                    "website": "https://kingnodes.com",
+                                    "security_contact": "security@kingnodes.com",
+                                    "details": "Professional PoS validator securing only the best interchain networks. Join our community of delegators Telegram: https://t.me/kingnodes Twitter: https://twitter.com/kingnodes"
+                                },
+                                "commission": {
+                                    "rate": "0.050000000000000000",
+                                    "max_rate": "1.000000000000000000",
+                                    "max_change_rate": "1.000000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "sge19w2488ntfgpduzqq3sk4j5x387zynwknd3w0k8",
+                                "validator_address": "sgevaloper19w2488ntfgpduzqq3sk4j5x387zynwknhtw4n6",
+                                "pubkey": {
+                                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                                    "key": "t3YExRmv6237zhmw/DWvl6mzdTWGyNk9OrLUuXB7U5Y="
+                                },
+                                "value": {
+                                    "denom": "usge",
+                                    "amount": "500000000"
+                                }
+                            }
+                        ],
+                        "memo": "59724f5c6232b1d10507e08b9a9f2ff14181a779@51.195.61.9:26656",
+                        "timeout_height": "0",
+                        "extension_options": [],
+                        "non_critical_extension_options": []
+                    },
+                    "auth_info": {
+                        "signer_infos": [
+                            {
+                                "public_key": {
+                                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                                    "key": "AhHs+4Sx10vIdWyHU0GU7Xn+ukDtNy0UeHdQ01jtOkKJ"
+                                },
+                                "mode_info": {
+                                    "single": {
+                                        "mode": "SIGN_MODE_DIRECT"
+                                    }
+                                },
+                                "sequence": "0"
+                            }
+                        ],
+                        "fee": {
+                            "amount": [],
+                            "gas_limit": "200000",
+                            "payer": "",
+                            "granter": ""
+                        }
+                    },
+                    "signatures": [
+                        "YeFpc+HojfAN584eaBTj8JXEe5iHnPou/lYEmGv7NVpchu6TDXpfriSBrdX/tEBdHYHYXz4JxPUKu2bjDUEJ1g=="
+                    ]
+                },
+                {
+                    "body": {
+                        "messages": [
+                            {
+                                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                                "description": {
+                                    "moniker": " Lavender.Five Nodes 🐝",
+                                    "identity": "F87ADDB700C0CC94",
+                                    "website": "https://www.lavenderfive.com/",
+                                    "security_contact": "hello@lavenderfive.com",
+                                    "details": "100% soft slash protected. We strive to make the cosmos a more holistically wholesome place. Come say Hi! https://linktr.ee/lavenderfive"
+                                },
+                                "commission": {
+                                    "rate": "0.050000000000000000",
+                                    "max_rate": "0.200000000000000000",
+                                    "max_change_rate": "0.010000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "sge14qekdkj2nmmwea4ufg9n002a3pud23y8mz74x6",
+                                "validator_address": "sgevaloper14qekdkj2nmmwea4ufg9n002a3pud23y8pc70r8",
+                                "pubkey": {
+                                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                                    "key": "c0Ap5VxsOtjmW18uZdFUz/VIt6KLi4QZWbyKj0FgHBI="
+                                },
+                                "value": {
+                                    "denom": "usge",
+                                    "amount": "500000000"
+                                }
+                            }
+                        ],
+                        "memo": "44d3e10ca4ea44131ef7dd3d2d63626f2276ffde@192.168.1.42:26656",
+                        "timeout_height": "0",
+                        "extension_options": [],
+                        "non_critical_extension_options": []
+                    },
+                    "auth_info": {
+                        "signer_infos": [
+                            {
+                                "public_key": {
+                                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                                    "key": "AgDrjXJ1+/lwJdf+fekEXKwLpA30N7F/Z3ESi/Sn7Rw4"
+                                },
+                                "mode_info": {
+                                    "single": {
+                                        "mode": "SIGN_MODE_DIRECT"
+                                    }
+                                },
+                                "sequence": "0"
+                            }
+                        ],
+                        "fee": {
+                            "amount": [],
+                            "gas_limit": "200000",
+                            "payer": "",
+                            "granter": ""
+                        }
+                    },
+                    "signatures": [
+                        "IsmQf8nkSQQJI0hkk/qUBRKJAVFXy/YGBAsUIMMALjsv63AV+Oo10wrrqKWquTqKT6/S5rdUEj3QVp9hsoSAPw=="
+                    ]
+                },
+                {
+                    "body": {
+                        "messages": [
+                            {
+                                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                                "description": {
+                                    "moniker": "leo",
+                                    "identity": "",
+                                    "website": "",
+                                    "security_contact": "",
+                                    "details": ""
+                                },
+                                "commission": {
+                                    "rate": "0.050000000000000000",
+                                    "max_rate": "0.200000000000000000",
+                                    "max_change_rate": "0.010000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "sge154zr6hyqs46lv93n6m87z5jnl3p5wa0g6q2we6",
+                                "validator_address": "sgevaloper154zr6hyqs46lv93n6m87z5jnl3p5wa0gq625u8",
+                                "pubkey": {
+                                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                                    "key": "WLJM2BPF3YV6f8wczHSaD7fXllYYLxi5ZqMizPc2WxQ="
+                                },
+                                "value": {
+                                    "denom": "usge",
+                                    "amount": "500000000"
+                                }
+                            }
+                        ],
+                        "memo": "1d8dd9667f7a5e83370603fc635a0f0ed7a360d1@10.50.4.117:26656",
+                        "timeout_height": "0",
+                        "extension_options": [],
+                        "non_critical_extension_options": []
+                    },
+                    "auth_info": {
+                        "signer_infos": [
+                            {
+                                "public_key": {
+                                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                                    "key": "Axi/6C1CgdxP1xtsyTzU//V36LUhlpLgyYyBeZCiZVEy"
+                                },
+                                "mode_info": {
+                                    "single": {
+                                        "mode": "SIGN_MODE_DIRECT"
+                                    }
+                                },
+                                "sequence": "0"
+                            }
+                        ],
+                        "fee": {
+                            "amount": [],
+                            "gas_limit": "200000",
+                            "payer": "",
+                            "granter": ""
+                        }
+                    },
+                    "signatures": [
+                        "s4QEAgvBFkI/2RMRXzQq2wvf3cuiuI61l9trfX30ef0iuSpgdz3OOTP/g5/nxhrYMF1C46PutT90twYnIykAvQ=="
+                    ]
+                },
+                {
+                    "body": {
+                        "messages": [
+                            {
+                                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                                "description": {
+                                    "moniker": "Nodeist",
+                                    "identity": "A2E180C6914F7F87",
+                                    "website": "https://nodeist.net",
+                                    "security_contact": "hello@nodeist.net",
+                                    "details": "Nodeist is the trusted staking service provider for blockchain projects. 100% refund for downtime slash. Contact us at hello@nodeist.net"
+                                },
+                                "commission": {
+                                    "rate": "0.050000000000000000",
+                                    "max_rate": "0.200000000000000000",
+                                    "max_change_rate": "0.010000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "sge1pvhnntuj7hg3lsmklsynhqm5fv4jt7u9cvrj0u",
+                                "validator_address": "sgevaloper1pvhnntuj7hg3lsmklsynhqm5fv4jt7u9zkrg2p",
+                                "pubkey": {
+                                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                                    "key": "oTSgccLWRXScYNawF8ewrOOeudUbuLmx48Or7FKi9lM="
+                                },
+                                "value": {
+                                    "denom": "usge",
+                                    "amount": "500000000"
+                                }
+                            }
+                        ],
+                        "memo": "94f40d2af393be3751518e15818c445632a712a4@84.46.246.109:26656",
+                        "timeout_height": "0",
+                        "extension_options": [],
+                        "non_critical_extension_options": []
+                    },
+                    "auth_info": {
+                        "signer_infos": [
+                            {
+                                "public_key": {
+                                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                                    "key": "Apul2LVCHmtbPW6TZxC/h2SY7pDo2K+zszmH43g9HgNJ"
+                                },
+                                "mode_info": {
+                                    "single": {
+                                        "mode": "SIGN_MODE_DIRECT"
+                                    }
+                                },
+                                "sequence": "0"
+                            }
+                        ],
+                        "fee": {
+                            "amount": [],
+                            "gas_limit": "200000",
+                            "payer": "",
+                            "granter": ""
+                        }
+                    },
+                    "signatures": [
+                        "1auvwbrGyHX2GOKPASKE4jxwu2pfh4rzWFrFQ1EOLtwLBYn5uYWWjr02qzEBIcoGCe5XaEIyC/Q0cVjgCU24FQ=="
+                    ]
+                },
+                {
+                    "body": {
+                        "messages": [
+                            {
+                                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                                "description": {
+                                    "moniker": "NodeStake",
+                                    "identity": "94EFE192B2C52424",
+                                    "website": "https://nodestake.top",
+                                    "security_contact": "info@nodestake.top",
+                                    "details": "NodeStake is the professional validator, infrastructure provider and IBC relayer.⚛️7*24h | https://twitter.com/Nodestake_top"
+                                },
+                                "commission": {
+                                    "rate": "0.050000000000000000",
+                                    "max_rate": "0.200000000000000000",
+                                    "max_change_rate": "0.200000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "sge1etx55kw7tkmnjqz0k0mups4ewxlr324tt4t3fv",
+                                "validator_address": "sgevaloper1etx55kw7tkmnjqz0k0mups4ewxlr324t30ttv3",
+                                "pubkey": {
+                                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                                    "key": "UST5tGfZANDiXxQp/JfnhBGTCPe+4dL1mor1zLP1AFA="
+                                },
+                                "value": {
+                                    "denom": "usge",
+                                    "amount": "500000000"
+                                }
+                            }
+                        ],
+                        "memo": "f5a8e867ae61da981adfb2e142555064694ef541@57.128.37.47:26656",
+                        "timeout_height": "0",
+                        "extension_options": [],
+                        "non_critical_extension_options": []
+                    },
+                    "auth_info": {
+                        "signer_infos": [
+                            {
+                                "public_key": {
+                                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                                    "key": "AxLZ/h5VnOodWIfYfP2+Iu8+yASiqFQdktMiIFeUNnXt"
+                                },
+                                "mode_info": {
+                                    "single": {
+                                        "mode": "SIGN_MODE_DIRECT"
+                                    }
+                                },
+                                "sequence": "0"
+                            }
+                        ],
+                        "fee": {
+                            "amount": [],
+                            "gas_limit": "200000",
+                            "payer": "",
+                            "granter": ""
+                        }
+                    },
+                    "signatures": [
+                        "vg3UCdNNfxvamKXuUi1I8ntzVGUIItjNPoPEzqCNGkFDrn9PztkeVSdKqnDtlhvaWRVec6zdpbfwa7kSHnMTrQ=="
+                    ]
+                },
+                {
+                    "body": {
+                        "messages": [
+                            {
+                                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                                "description": {
+                                    "moniker": "polkachu.com",
+                                    "identity": "0A6AF02D1557E5B4",
+                                    "website": "https://polkachu.com",
+                                    "security_contact": "hello@polkachu.com",
+                                    "details": "Polkachu is the trusted staking service provider for blockchain projects. 100% refund for downtime slash. Contact us at hello@polkachu.com"
+                                },
+                                "commission": {
+                                    "rate": "0.050000000000000000",
+                                    "max_rate": "0.200000000000000000",
+                                    "max_change_rate": "0.010000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "sge1jt9w26mpxxjsk63mvd4m2ynj0af09cslapqc7m",
+                                "validator_address": "sgevaloper1jt9w26mpxxjsk63mvd4m2ynj0af09csl8mqzmx",
+                                "pubkey": {
+                                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                                    "key": "uedkDVnys9HctybdvybM8wzrhQ6eE7har/F5sm3VRvQ="
+                                },
+                                "value": {
+                                    "denom": "usge",
+                                    "amount": "500000000"
+                                }
+                            }
+                        ],
+                        "memo": "3819c7aebf9ec5f3694747ea3c061b91f555c590@148.251.177.108:26656",
+                        "timeout_height": "0",
+                        "extension_options": [],
+                        "non_critical_extension_options": []
+                    },
+                    "auth_info": {
+                        "signer_infos": [
+                            {
+                                "public_key": {
+                                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                                    "key": "As1WcJsvf1NQgRlS8a2PHuueKhHlCYrFe3VooMxQdflR"
+                                },
+                                "mode_info": {
+                                    "single": {
+                                        "mode": "SIGN_MODE_DIRECT"
+                                    }
+                                },
+                                "sequence": "0"
+                            }
+                        ],
+                        "fee": {
+                            "amount": [],
+                            "gas_limit": "200000",
+                            "payer": "",
+                            "granter": ""
+                        }
+                    },
+                    "signatures": [
+                        "a7ickm0o+h8jdTYPNCrtMn+7XVgdgR+cuNBm2tnhwmtQulpWG4xHjRBNuk6cOx0QpEb9HG2+wgaGyMEqGD4nEg=="
+                    ]
+                },
+                {
+                    "body": {
+                        "messages": [
+                            {
+                                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                                "description": {
+                                    "moniker": "ramuchi.tech",
+                                    "identity": "4D0D40021BDCECB7",
+                                    "website": "https://ramuchi.tech/",
+                                    "security_contact": "validator@ramuchi.tech",
+                                    "details": "♾Staking Validator from 2020. ♚Operate IBC Relayers in various chains. ♛Support Auto-REStake. ♜Professional infrastructure for stable and safe operation of the chains. Place staking on trusted validators♾"
+                                },
+                                "commission": {
+                                    "rate": "0.050000000000000000",
+                                    "max_rate": "0.200000000000000000",
+                                    "max_change_rate": "0.100000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "sge1xfxskhcvq966rml245rswmgqgqlctzplk8yd6z",
+                                "validator_address": "sgevaloper1xfxskhcvq966rml245rswmgqgqlctzplvayhll",
+                                "pubkey": {
+                                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                                    "key": "XOB9HSrmqBhBAq92n634iFFkAE+e5fjyPe6WgwqB5ZM="
+                                },
+                                "value": {
+                                    "denom": "usge",
+                                    "amount": "500000000"
+                                }
+                            }
+                        ],
+                        "memo": "58556b5fb572e20d41ce686149ab7b1646ad63a9@65.108.15.170:26656",
+                        "timeout_height": "0",
+                        "extension_options": [],
+                        "non_critical_extension_options": []
+                    },
+                    "auth_info": {
+                        "signer_infos": [
+                            {
+                                "public_key": {
+                                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                                    "key": "A6OFnpkw+rCRFh7URIgTZ3XywzGHHNc8pLs+RIy9k9VI"
+                                },
+                                "mode_info": {
+                                    "single": {
+                                        "mode": "SIGN_MODE_DIRECT"
+                                    }
+                                },
+                                "sequence": "0"
+                            }
+                        ],
+                        "fee": {
+                            "amount": [],
+                            "gas_limit": "200000",
+                            "payer": "",
+                            "granter": ""
+                        }
+                    },
+                    "signatures": [
+                        "woahCTZcKIBwMobYx/u6YZiHUBURsWvbaN7WIHqrfldIXG/MwCB4PsedmWdB4UBAuL2waRDWlUbOHeRU3RsmTA=="
+                    ]
+                },
+                {
+                    "body": {
+                        "messages": [
+                            {
+                                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                                "description": {
+                                    "moniker": "RHINO",
+                                    "identity": "59C635D1CD02FEEC",
+                                    "website": "https://rhinostake.com",
+                                    "security_contact": "support@rhinostake.com",
+                                    "details": "An Active, Independent and Secure Blockchain Validator. Read more about #RHINOgives at https://rhinostake.com/rhino-gives"
+                                },
+                                "commission": {
+                                    "rate": "0.050000000000000000",
+                                    "max_rate": "0.200000000000000000",
+                                    "max_change_rate": "0.010000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "sge10n62hkfuqwu7sc9jv2uqunxcu6tu2w3mmefpfv",
+                                "validator_address": "sgevaloper10n62hkfuqwu7sc9jv2uqunxcu6tu2w3mprfmv3",
+                                "pubkey": {
+                                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                                    "key": "z4/8ILlBQxiLwDdX8qcN3y+JMQlgYEjGMDGqtwtMqok="
+                                },
+                                "value": {
+                                    "denom": "usge",
+                                    "amount": "500000000"
+                                }
+                            }
+                        ],
+                        "memo": "02ed7e4128bf0bc72a69696aa9157234e0f1e39e@10.254.110.184:26656",
+                        "timeout_height": "0",
+                        "extension_options": [],
+                        "non_critical_extension_options": []
+                    },
+                    "auth_info": {
+                        "signer_infos": [
+                            {
+                                "public_key": {
+                                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                                    "key": "AmtZX5Vd1niwBObU+kIsWK2dqu0KA3G33JdnwhlvURmE"
+                                },
+                                "mode_info": {
+                                    "single": {
+                                        "mode": "SIGN_MODE_DIRECT"
+                                    }
+                                },
+                                "sequence": "0"
+                            }
+                        ],
+                        "fee": {
+                            "amount": [],
+                            "gas_limit": "200000",
+                            "payer": "",
+                            "granter": ""
+                        }
+                    },
+                    "signatures": [
+                        "rYuQB5a6MSZPXOQBEWj0q8Bym8/0Ft6L+VnZFLJRC6YrZA7yTrH12s4oHRqFCk/boN+6Ti+9Lh8BVHdwe8dPAg=="
+                    ]
+                },
+                {
+                    "body": {
+                        "messages": [
+                            {
+                                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                                "description": {
+                                    "moniker": "StakerHouse",
+                                    "identity": "60D9300FE1415E4A",
+                                    "website": "https://stakerhouse.com",
+                                    "security_contact": "support@stakerhouse.com",
+                                    "details": "State-of-the-art infrastructure for multiple PoS blockchain protocols, offering highly reliable and secure staking services."
+                                },
+                                "commission": {
+                                    "rate": "0.050000000000000000",
+                                    "max_rate": "0.200000000000000000",
+                                    "max_change_rate": "0.010000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "sge12t5t6cnae46dgwwth6evpm7lk0pq9hl3eytgk9",
+                                "validator_address": "sgevaloper12t5t6cnae46dgwwth6evpm7lk0pq9hl3r7tjnc",
+                                "pubkey": {
+                                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                                    "key": "/jXHQE263JloVpVhvULt3bqNFYMZSlfOd3Pnelvv5dk="
+                                },
+                                "value": {
+                                    "denom": "usge",
+                                    "amount": "500000000"
+                                }
+                            }
+                        ],
+                        "memo": "e6ad3d00958fafd19f15fa3f151dac8dd8d48c80@5.42.76.30:26656",
+                        "timeout_height": "0",
+                        "extension_options": [],
+                        "non_critical_extension_options": []
+                    },
+                    "auth_info": {
+                        "signer_infos": [
+                            {
+                                "public_key": {
+                                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                                    "key": "Air0Gs2vmPFbVY1pbvjhPOvIIkzzNtLDIbx7xqHMz6U6"
+                                },
+                                "mode_info": {
+                                    "single": {
+                                        "mode": "SIGN_MODE_DIRECT"
+                                    }
+                                },
+                                "sequence": "0"
+                            }
+                        ],
+                        "fee": {
+                            "amount": [],
+                            "gas_limit": "200000",
+                            "payer": "",
+                            "granter": ""
+                        }
+                    },
+                    "signatures": [
+                        "ti6N4TpEr0O+iIXdqZAUS5uAYdbYPv3QHUjMXQD/VlpiegqgjnrQQQWKmB+OhDDsYG5NeaUCVp+hNt6ONuoLPw=="
+                    ]
+                }
+            ]
+        },
+        "gov": {
+            "starting_proposal_id": "1",
+            "deposits": [],
+            "votes": [],
+            "proposals": [],
+            "deposit_params": {
+                "min_deposit": [
+                    {
+                        "denom": "usge",
+                        "amount": "5000000000"
+                    }
+                ],
+                "max_deposit_period": "604800s"
+            },
+            "voting_params": {
+                "voting_period": "1209600s"
+            },
+            "tally_params": {
+                "quorum": "0.400000000000000000",
+                "threshold": "0.500000000000000000",
+                "veto_threshold": "0.334000000000000000"
+            }
+        },
+        "house": {
+            "params": {
+                "min_deposit": "10000000",
+                "house_participation_fee": "0.005000000000000000"
+            },
+            "deposit_list": [],
+            "withdrawal_list": []
+        },
+        "ibc": {
+            "client_genesis": {
+                "clients": [],
+                "clients_consensus": [],
+                "clients_metadata": [],
+                "params": {
+                    "allowed_clients": [
+                        "06-solomachine",
+                        "07-tendermint"
+                    ]
+                },
+                "create_localhost": false,
+                "next_client_sequence": "0"
+            },
+            "connection_genesis": {
+                "connections": [],
+                "client_connection_paths": [],
+                "next_connection_sequence": "0",
+                "params": {
+                    "max_expected_time_per_block": "30000000000"
+                }
+            },
+            "channel_genesis": {
+                "channels": [],
+                "acknowledgements": [],
+                "commitments": [],
+                "receipts": [],
+                "send_sequences": [],
+                "recv_sequences": [],
+                "ack_sequences": [],
+                "next_channel_sequence": "0"
+            }
+        },
+        "interchainaccounts": {
+            "controller_genesis_state": {
+                "active_channels": [],
+                "interchain_accounts": [],
+                "ports": [],
+                "params": {
+                    "controller_enabled": true
+                }
+            },
+            "host_genesis_state": {
+                "active_channels": [],
+                "interchain_accounts": [],
+                "port": "icahost",
+                "params": {
+                    "host_enabled": true,
+                    "allow_messages": []
+                }
+            }
+        },
+        "market": {
+            "params": {},
+            "market_list": [],
+            "stats": {
+                "resolved_unsettled": []
+            }
+        },
+        "mint": {
+            "minter": {
+                "inflation": "0.000000000000000000",
+                "phase_step": 1,
+                "phase_provisions": "100000000000000.000000000000000000",
+                "truncated_tokens": "0.000000000000000000"
+            },
+            "params": {
+                "mint_denom": "usge",
+                "blocks_per_year": "5631428",
+                "phases": [
+                    {
+                        "inflation": "0.000000000000000000",
+                        "year_coefficient": "1000.000000000000000000"
+                    }
+                ],
+                "exclude_amount": "0"
+            }
+        },
+        "orderbook": {
+            "params": {
+                "max_order_book_participations": "100",
+                "batch_settlement_count": "1000",
+                "requeue_threshold": "1000"
+            },
+            "order_book_list": [],
+            "order_book_participation_list": [],
+            "order_book_exposure_list": [],
+            "participation_exposure_list": [],
+            "participation_exposure_by_index_list": [],
+            "historical_participation_exposure_list": [],
+            "participation_bet_pair_exposure_list": [],
+            "stats": {
+                "resolved_unsettled": []
+            }
+        },
+        "ovm": {
+            "params": {},
+            "key_vault": {
+                "public_keys": [
+                    "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA4lFY894jf46451wgmk9Cer9qWuLju5ZXLa/bW7X3agU=\n-----END PUBLIC KEY-----",
+                    "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAHaAFraMJwMV394t1jKqwH7DCNzHffntsgKXO3A8DL0w=\n-----END PUBLIC KEY-----",
+                    "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAJMRJL3kE7k2DnRc77krKDzSwBWwhUo8ZfMexTxWUV7c=\n-----END PUBLIC KEY-----",
+                    "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAgDj7MeggwsvmO8alNXAbnH879a9jAdgo7WhHihBMBXc=\n-----END PUBLIC KEY-----",
+                    "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAWiQFfH7Asw4MkzwhGAtZON+bEXstulrCLhdCn/OTgYU=\n-----END PUBLIC KEY-----"
+                ]
+            },
+            "pubkeys_change_proposals": [],
+            "proposal_stats": {
+                "pubkeys_change_count": "0"
+            }
+        },
+        "params": null,
+        "slashing": {
+            "params": {
+                "signed_blocks_window": "25000",
+                "min_signed_per_window": "0.050000000000000000",
+                "downtime_jail_duration": "300s",
+                "slash_fraction_double_sign": "0.050000000000000000",
+                "slash_fraction_downtime": "0.000100000000000000"
+            },
+            "signing_infos": [],
+            "missed_blocks": []
+        },
+        "staking": {
+            "params": {
+                "unbonding_time": "1209600s",
+                "max_validators": 50,
+                "max_entries": 7,
+                "historical_entries": 10000,
+                "bond_denom": "usge"
+            },
+            "last_total_power": "0",
+            "last_validator_powers": [],
+            "validators": [],
+            "delegations": [],
+            "unbonding_delegations": [],
+            "redelegations": [],
+            "exported": false
+        },
+        "transfer": {
+            "port_id": "transfer",
+            "denom_traces": [],
+            "params": {
+                "send_enabled": true,
+                "receive_enabled": true
+            }
+        },
+        "upgrade": {},
+        "vesting": {}
+    }
+}
