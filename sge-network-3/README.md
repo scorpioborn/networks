@@ -228,7 +228,7 @@ sged tx staking create-validator \
 
 ## Persistent Peers
 
-The `persistent_peers` needs a comma-separated list of trusted peers on the network, you can acquire it from the [peers.txt](https://github.com/sge-network/networks/blob/master/sge-network-3/peers.txt) for example:
+The `persistent_peers` needs a comma-separated list of trusted peers on the network, you can acquire it from the [peers-nodes.txt](https://github.com/sge-network/networks/blob/master/sge-network-3/peer-nodes.txt) for example:
 
 ```text
 4980b478f91de9be0564a547779e5c6cb07eb995@3.239.15.80:26656,0e7042be1b77707aaf0597bb804da90d3a606c08@3.88.40.53:26656
