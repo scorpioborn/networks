@@ -1,8 +1,8 @@
-# sge-network-3
+# sge-network-1
 
-> This chain is a public-testnet.
+> This chain is an internal-testnet.
 
-3rd TestNet for the SGE Network application.
+1st testnet for the SGE Network application.
 
 ## Hardware Requirements
 
@@ -27,31 +27,25 @@
 ---
 
 ## Network
-
-- Sentry node architecture and secure firewall configurations are highly recommended, [ref](https://forum.cosmos.network/t/sentry-node-architecture-overview/454)
+- Sentry node architecture and secure firewall configurations are highly recommended [ref](https://forum.cosmos.network/t/sentry-node-architecture-overview/454)
 - Port & Firewall settings (Ports Allowed)
-  - RPC port: 26657
-  - P2P port: 26656
-  - GRPC port: 9090
+  - rpc port: 26657
+  - p2p port: 26656
+  - grpc port: 9090
 
 ---
 
 ## Installation Steps
 
-> Prerequisite: go1.18 required [ref](https://golang.org/doc/install) (build using higher versions cause consensus error)
-
+> Prerequisite: go1.18+ required [ref](https://golang.org/doc/install)
 ```shell
-sudo snap install go --channel=1.18/stable --classic
+sudo snap install --classic go
 ```
-
 > Prerequisite: git [ref](https://github.com/git/git)
-
 ```shell
 sudo apt install -y git gcc make
 ```
-
 > Prerequisite: Set environment variables
-
 ```shell
 sudo nano $HOME/.profile
 # Add the following two lines at the end of the file
@@ -65,9 +59,7 @@ echo $GOPATH
 echo $PATH
 /home/[your_username]/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 ```
-
 > Recommended requirement: Increase 'number of open files' limit
-
 ```shell
 sudo nano /etc/security/limits.conf
 # Before the end of the file, add:
@@ -75,10 +67,8 @@ sudo nano /etc/security/limits.conf
 # Then reboot the instance for it to take effect and check with:
 ulimit -Sn
 ```
-
 > Optional requirement: GNU make [ref](https://www.gnu.org/software/make/manual/html_node/index.html)
-
-- Clone the git repository and Network
+- Clone git repository and Network
 
 ```shell
 git clone https://github.com/sge-network/sge
@@ -90,7 +80,7 @@ git clone https://github.com/sge-network/networks
 ```shell
 cd sge
 git fetch --tags
-git checkout v1.0.1
+git checkout v0.0.1
 ```
 
 - Install
@@ -115,23 +105,22 @@ or
 
 ### Prior to genesis creation and network launch
 
-- [Install](#installation-steps) the SGE Network application
+- [Install](#installation-steps) Sge Network application
 - Initialize node
 
 ```shell
-sged init {{NODE_NAME}} --chain-id sge-network-3
+sged init {{NODE_NAME}} --chain-id sge-network-1
 ```
-
 - Create a new key
 
 ```shell
 sged keys add <keyName>
 ```
 
-- Add a genesis account with `1000000000usge tokens`
+- Add a genesis account with `1000000000000usge tokens`
 
 ```shell
-sged add-genesis-account {{KEY_NAME}} 1000000000usge
+sged add-genesis-account {{KEY_NAME}} 1000000000000usge
 ```
 
 - Make a genesis transaction to become a validator
@@ -139,7 +128,7 @@ sged add-genesis-account {{KEY_NAME}} 1000000000usge
 ```shell
 sged gentx \
   [account_key_name] \
-  500000000usge \
+  500000000000usge \
   --commission-max-change-rate 0.01 \
   --commission-max-rate 0.2 \
   --commission-rate 0.05 \
@@ -149,28 +138,28 @@ sged gentx \
   --security-contact "[optional-security@example.com]" \
   --website [optional.web.page.com] \
   --moniker [node_moniker] \
-  --chain-id sge-network-3
+  --chain-id sge-network-1
 ```
 
 - Copy the contents of `${HOME}/.sge/config/gentx/gentx-XXXXXXXX.json`
-- Fork the [network repository](https://github.com/sge-network/networks)
-- Create a file `gentx-{{VALIDATOR_NAME}}.json` under the `sge-network-3/gentxs` folder in the newly created branch, Paste the copied text into the file (note: find reference file `gentx-examplexxxxxxxx.json` in the same folder)
+- Clone the [network repository](https://github.com/sge-network/networks) and create a new branch
+- Create a file `gentx-{{VALIDATOR_NAME}}.json` under the `testnet/sge-network-1/gentxs` folder in the newly created branch, paste the copied text into the file (note: find reference file `gentx-examplexxxxxxxx.json` in the same folder)
 - Run `sged tendermint show-node-id` and copy your nodeID
 - Run `ifconfig` or `curl ipinfo.io/ip` and copy your publicly reachable IP address
-- Create a file `peers-{{VALIDATOR_NAME}}.json` under the `sge-network-3/peers` folder in the new branch, Paste the copied text from the last two steps into the file (note: find reference file `peers-examplexxxxxxxx.json` in the same folder)
+- Create a file `peers-{{VALIDATOR_NAME}}.json` under the `testnet/sge-network-1/peers` folder in the new branch, paste the copied text from the last two steps into the file (note: find reference file `peers-examplexxxxxxxx.json` in the same folder)
 - Create a Pull Request to the `master` branch of the [network repository](https://github.com/sge-network/networks)
-  > **NOTE:** the Pull Request will be merged by the maintainers to confirm the inclusion of the validator at the genesis. The final genesis file will be published under the file `sge-network-3/genesis.json`.
-- Once the submission process has closed and the genesis file has been created, replace the contents of your `${HOME}/.sge/config/genesis.json` with that of `sge-network-3/genesis.json`
-- Add the required `persistent_peers` or `seeds` in `${HOME}/.sge/config/config.toml` from `sge-network-3/peers-nodes.txt`
+  > **NOTE:** the Pull Request will be merged by the maintainers to confirm the inclusion of the validator at the genesis. The final genesis file will be published under the file `testnet/sge-network-1/genesis.json`.
+- Once the submission process has closed and the genesis file has been created, replace the contents of your `${HOME}/.sge/config/genesis.json` with that of `testnet/sge-network-1/genesis.json`
+- Add the required `persistent_peers` or `seeds` in `${HOME}/.sge/config/config.toml` from `testnet/sge-network-1/peers-nodes.txt`
 - Start node
-
 ```shell
 sged start
 ```
 
-## Genesis Time
 
-The genesis transactions should be sent before 0500HRS UTC on 25th July 2023 and the same will be used to publish the `genesis.json` at 1300HRS UTC on 25th JUly 2023
+
+## Genesis Time
+The genesis transactions sent before 0630HRS UTC 28th October, 2022 will be used to publish the `genesis.json` at 0830HRS UTC 28th October 2022
 
 <!-- > Submitting Gentx is now closed. Genesis has been published and block generation has started -->
 
@@ -180,20 +169,20 @@ The genesis transactions should be sent before 0500HRS UTC on 25th July 2023 and
 
 ### Step 1: Start a full node
 
-- [Install](#installation-steps) the SGE Network application
+- [Install](#installation-steps) Sge Network application
 - Initialize node
 
 ```shell
 sged init {{NODE_NAME}}
 ```
 
-- Replace the contents of your `${HOME}/.sge/config/genesis.json` with that of `sge-network-3/genesis.json` from the `master` branch of [network repository](https://github.com/sge-network/networks)
+- Replace the contents of your `${HOME}/.sge/config/genesis.json` with that of `testnet/sge-network-1/genesis.json` from the `master` branch of [network repository](https://github.com/sge-network/networks)
 
 ```shell
-curl https://github.com/sge-network/blob/master/networks/sge-network-3/genesis.json > $HOME/.sge/config/genesis.json
+curl https://github.com/sge-network/blob/master/networks/testnet/sge-network-1/genesis.json > $HOME/.sge/config/genesis.json
 ```
 
-- Add `persistent_peers` or `seeds` in `${HOME}/.sge/config/config.toml` from `sge-network-3/peers.txt` from the `master` branch of [network repository](https://github.com/sge-network/networks/blob/master/sge-network-3/peers.txt)
+- Add `persistent_peers` or `seeds` in `${HOME}/.sge/config/config.toml` from `testnet/sge-network-1/peers-nodes.txt` from the `master` branch of [network repository](https://github.com/sge-network/networks)
 - Start node
 
 ```shell
@@ -203,15 +192,14 @@ sged start
 > Note: if you are only planning to run a full node, you can stop here
 
 ### Step 2: Create a validator
-
 - Acquire SGE tokens from the [faucet]()
 - Wait for your full node to catch up to the latest block (compare to the [explorer]())
 - Run `sged tendermint show-validator` and copy your consensus public key
 - Send a create-validator transaction
 
-```shell
+```
 sged tx staking create-validator \
-  --amount 500000000usge \
+  --amount 50000000usge \
   --commission-max-change-rate 0.01 \
   --commission-max-rate 0.2 \
   --commission-rate 0.1 \
@@ -220,25 +208,35 @@ sged tx staking create-validator \
   --min-self-delegation 1 \
   --moniker [validator_moniker] \
   --pubkey $(sged tendermint show-validator) \
-  --chain-id sge-network-3 \
+  --chain-id sge-network-1 \
   -y
 ```
 
 ---
 
 ## Persistent Peers
-
-The `persistent_peers` needs a comma-separated list of trusted peers on the network, you can acquire it from the [peers-nodes.txt](https://github.com/sge-network/networks/blob/master/sge-network-3/peer-nodes.txt) for example:
-
-```text
+The `persistent_peers` needs a comma-separated list of trusted peers on the network, you can acquire it from the [peer-nodes.txt](https://github.com/sge-network/blob/master/networks/testnet/sge-network-1/peer-nodes.txt) for example:
+```
 4980b478f91de9be0564a547779e5c6cb07eb995@3.239.15.80:26656,0e7042be1b77707aaf0597bb804da90d3a606c08@3.88.40.53:26656
 ```
 
 ## Version
-
-This chain is currently running on SGE [v1.0.1](https://github.com/sge-network/sge/releases/tag/v1.0.1)
-Commit Hash: [d911ce222e740e8c528bf083fa24820f8421c614](https://github.com/sge-network/sge/commit/d911ce222e740e8c528bf083fa24820f8421c614)
+This chain is currently running on sge [v0.0.1](https://github.com/sge-network/sge/releases/tag/v0.0.1)
+Commit Hash: [63dd8e8081e572f60fc02e0359657e41624e47c6](https://github.com/sge-network/sge/commit/63dd8e8081e572f60fc02e0359657e41624e47c6)
 
 ## Binary
+The binary can be downloaded from [here](https://github.com/sge-network/sge/releases/tag/v0.0.1)
 
-The binary can be downloaded from [here](https://github.com/sge-network/sge/releases/tag/v1.0.1)
+## Explorer
+The Block Explorer for this chain is available [here](https://blockexplorer.testnet.sgenetwork.io/)
+
+## Faucet
+Discord Faucet is available [here](https://discord.gg/2RU9FZVQ)
+
+### Documentation
+For the most up to date documentation please visit [Gitbook](https://six-sigma-sports.gitbook.io/documentation-1/)
+
+### RPC & API 
+- RPC is available [here](http://rpc.testnet.sgenetwork.io:26657/)
+- API is available [here](http://api.testnet.sgenetwork.io:1317/)
+
