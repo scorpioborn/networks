@@ -204,7 +204,7 @@ sged start
 
 ### Step 2: Create a validator
 
-- Acquire SGE tokens from the [faucet]()
+- Acquire SGE tokens
 - Wait for your full node to catch up to the latest block (compare to the [explorer]())
 - Run `sged tendermint show-validator` and copy your consensus public key
 - Send a create-validator transaction
