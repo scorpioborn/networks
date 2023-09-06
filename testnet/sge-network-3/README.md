@@ -165,7 +165,7 @@ sged gentx \
 - Start node
 
 ```shell
-sged start
+sged start --gas-prices [desired-gas-price(ex. 0.001usge)]
 ```
 
 ## Genesis Time
