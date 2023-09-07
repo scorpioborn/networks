@@ -233,6 +233,121 @@ The `persistent_peers` needs a comma-separated list of trusted peers on the netw
 ```text
 4980b478f91de9be0564a547779e5c6cb07eb995@3.239.15.80:26656,0e7042be1b77707aaf0597bb804da90d3a606c08@3.88.40.53:26656
 ```
+## Seed Nodes
+
+``` "seeds": [
+      {
+        "id": "babc3f3f7804933265ec9c40ad94f4da8e9e0017",
+        "address": "seed.rhinostake.com:17756",
+        "provider": "rhinostake.com"
+      },
+      {
+        "id": "a973f744ec9b00cd387f62fc8d69ae1d753c060e",
+        "address": "seed.sge.cros-nest.com:26656",
+        "provider": "cros-nest.com"
+      },
+      {
+        "id": "20e1000e88125698264454a884812746c2eb4807",
+        "address": "seeds.lavenderfive.com:17756",
+        "provider": "lavenderfive.com"
+      },
+      {
+        "id": "df949a46ae6529ae1e09b034b49716468d5cc7e9",
+        "address": "seeds.stakerhouse.com:11156",
+        "provider": "stakerhouse.com"
+      },
+      {
+        "id": "af9d9bd15ca597eb77dab73c56b0ae51bafcbb28",
+        "address": "sge.ramuchi.tech:16656",
+        "provider": "ramuchi.tech"
+      },
+      {
+        "id": "6a727128f427d166d90a1185c7965b178235aaee",
+        "address": "rpc.sge.nodestake.top:666",
+        "provider": "nodestake.top"
+      }
+    ]
+```
+## Blockexplorers
+```
+ [
+    {
+      "kind": "nodeist.net",
+      "url": "https://exp.nodeist.net/Sge",
+      "tx_page": "https://exp.nodeist.net/Sge/tx/${txHash}"
+    },
+    {
+      "kind": "nodestake.top",
+      "url": "https://explorer.nodestake.top/sge",
+      "tx_page": "https://explorer.nodestake.top/sge/tx/${txHash}"
+    },
+    {
+      "kind": "stakerhouse",
+      "url": "https://cosmotracker.com/sge",
+      "tx_page": "https://cosmotracker.com/sge/tx/${txHash}"
+    }
+  ]
+```
+## RPC EndPoints
+```
+ [
+      {
+        "address": "https://sge-api.lavenderfive.com/",
+        "provider": "Lavenderfive"
+      },
+      {
+        "address": "https://sge-api.polkachu.com/",
+        "provider": "Polkachu"
+      },
+      {
+        "address": "https://api.sge.nodestake.top/",
+        "provider": "Nostake"
+      },
+      {
+        "address": "https://api-sge.nodeist.net/",
+        "provider": "Nodeist"
+      }
+    ]
+```
+## Rest EndPoints
+```
+ [
+      {
+        "address": "https://sge-api.lavenderfive.com/",
+        "provider": "Lavenderfive"
+      },
+      {
+        "address": "https://sge-api.polkachu.com/",
+        "provider": "Polkachu"
+      },
+      {
+        "address": "https://api.sge.nodestake.top/",
+        "provider": "Nostake"
+      },
+      {
+        "address": "https://api-sge.nodeist.net/",
+        "provider": "Nodeist"
+      }
+    ]
+```
+
+## grpc EndPoints
+```
+ [
+      {
+        "address": "https://sge-api.lavenderfive.com/",
+        "provider": "Lavenderfive"
+      },
+      {
+        "address": "https://api.sge.nodestake.top/",
+        "provider": "Nostake"
+      },
+      {
+        "address": "https://api-sge.nodeist.net/",
+        "provider": "Nodeist"
+      }
+    ]
+```
 
 ## Version
 
