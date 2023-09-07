@@ -165,7 +165,7 @@ sged gentx \
 - Start node
 
 ```shell
-sged start --gas-prices [desired-gas-price(ex. 0.001usge)]
+sged start --minimum-gas-prices [desired-gas-price(ex. 0.001usge)]
 ```
 
 ## Genesis Time
@@ -197,7 +197,7 @@ curl https://github.com/sge-network/blob/master/networks/testnet/sge-network-3/g
 - Start node
 
 ```shell
-sged start
+sged start --minimum-gas-prices [desired-gas-price(ex. 0.001usge)]
 ```
 
 > Note: if you are only planning to run a full node, you can stop here
