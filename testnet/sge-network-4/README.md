@@ -2,7 +2,7 @@
 
 > This chain is a public-testnet.
 
-3rd TestNet for the SGE Network application.
+4th TestNet for the SGE Network application.
 
 ## Hardware Requirements
 
@@ -170,7 +170,7 @@ sged start --minimum-gas-prices [desired-gas-price(ex. 0.001usge)]
 
 ## Genesis Time
 
-The genesis transactions should be sent before 0500HRS UTC on 25th July 2023 and the same will be used to publish the `genesis.json` at 1300HRS UTC on 25th JUly 2023
+The genesis transactions should be sent before 0400HRS UTC on 31th October 2023 and the same will be used to publish the `genesis.json` at 1200HRS UTC on 31th October 2023
 
 <!-- > Submitting Gentx is now closed. Genesis has been published and block generation has started -->
 
