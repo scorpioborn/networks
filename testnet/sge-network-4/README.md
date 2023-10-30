@@ -236,9 +236,9 @@ The `persistent_peers` needs a comma-separated list of trusted peers on the netw
 
 ## Version
 
-This chain is currently running on SGE [v1.0.1](https://github.com/sge-network/sge/releases/tag/v1.0.1)
-Commit Hash: [d911ce222e740e8c528bf083fa24820f8421c614](https://github.com/sge-network/sge/commit/d911ce222e740e8c528bf083fa24820f8421c614)
+This chain is currently running on SGE [v1.1.0](https://github.com/sge-network/sge/releases/tag/v1.1.0)
+Commit Hash: [031b1b16abcc8025b96d3df260f31819b19c68ed](https://github.com/sge-network/sge/commit/031b1b16abcc8025b96d3df260f31819b19c68ed)
 
 ## Binary
 
-The binary can be downloaded from [here](https://github.com/sge-network/sge/releases/tag/v1.0.1)
+The binary can be downloaded from [here](https://github.com/sge-network/sge/releases/tag/v1.1.0)
