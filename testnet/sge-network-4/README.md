@@ -38,10 +38,10 @@
 
 ## Installation Steps
 
-> Prerequisite: go1.18 required [ref](https://golang.org/doc/install) (build using higher versions cause consensus error)
+> Prerequisite: go1.19 required [ref](https://golang.org/doc/install) (build using higher versions cause consensus error)
 
 ```shell
-sudo snap install go --channel=1.18/stable --classic
+sudo snap install go --channel=1.19/stable --classic
 ```
 
 > Prerequisite: git [ref](https://github.com/git/git)
