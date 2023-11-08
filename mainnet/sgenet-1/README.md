@@ -357,3 +357,47 @@ Commit Hash: [031b1b16abcc8025b96d3df260f31819b19c68ed](https://github.com/sge-n
 ## Binary
 
 The binary can be downloaded from [here](https://github.com/sge-network/sge/releases/tag/v1.1.0)
+
+## `v1.1.1` Upgrade
+
+The ***SGE v1.1.1*** release is a major release that contains Order Book calculation precision increament and setting the decimal odds as the default method for calculating the payout.
+
+### Release Contents
+
+The relevant detailed canges is listed [here](https://github.com/sge-network/sge/releases/tag/v1.1.1).
+
+### Testing and Testnet
+
+The `v1.1.1` will go through extended testing in 4 testnets independently and have been running for a long period with a large number of validators. these validators joined to the the latest testnet `sge-network-4` and this upgrade and every functionality of this version have been tested regirously.
+
+### Potential risk factors
+
+Although very extensive testing and simulation will have taken place there always exists a risk that the SGE-Network might experience problems due to potential bugs or errors from the new features. In the case of serious problems, validators should stop operating the network immediately.
+Coordination with validators will happen in the validators channel of the SGE-Network Discord to create and execute a contingency plan. Likely this will be an emergency release with fixes or the recommendation to consider the upgrade aborted and revert back to the previous release of gaia (`v1.0.1`).
+
+### Governance votes
+
+The following items summarize the voting options and what it means for this proposal:
+
+- YES: You agree that the SGE-Network should be updated with this release.
+- NO: You disagree that the SGE-Network should be updated with this release.
+- NO WITH VETO: A ‘NoWithVeto’ vote indicates a proposal either (1) is deemed to be spam, i.e., irrelevant to SGE-Network, (2) disproportionately infringes on minority interests, or (3) violates or encourages violation of the rules of engagement as currently set out by SGE-Network governance. If the number of ‘NoWithVeto’ votes is greater than a third of total votes, the proposal is rejected and the deposits are burned.
+- ABSTAIN: You wish to contribute to the quorum but you formally decline to vote either for or against the proposal.
+
+``` JSON
+{
+  "messages": [
+    {
+      "@type": "/cosmos.upgrade.v1beta1.MsgSoftwareUpgrade",
+      "authority": "sge10d07y265gmmuvt4z0w9aw880jnsr700jyzdmpe",
+      "plan": {
+        "name": "v1.1.1",
+        "height": 50,
+        "info": "Upgrade SGE blockchain node application to v1.1.1"
+      }
+    }
+  ],
+  "metadata": "Upgrade is a minor upgrade to the SGENET-1 that contains small features and bugfixes such as payout calculation precision and orderbook extended calculations.",
+  "deposit": "512000001usge"
+}
+```
