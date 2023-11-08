@@ -360,7 +360,7 @@ The binary can be downloaded from [here](https://github.com/sge-network/sge/rele
 
 ## `v1.1.1` Upgrade
 
-The ***SGE v1.1.1*** release is a major release that contains Order Book calculation precision increament and setting the decimal odds as the default method for calculating the payout.
+The ***SGE v1.1.1*** release is a major release that contains Order Book calculation precision increment and setting the decimal odds as the default method for calculating the payout.
 
 ### Release Contents
 
@@ -368,7 +368,7 @@ The relevant detailed canges is listed [here](https://github.com/sge-network/sge
 
 ### Testing and Testnet
 
-The `v1.1.1` will go through extended testing in 4 testnets independently and have been running for a long period with a large number of validators. these validators joined to the the latest testnet `sge-network-4` and this upgrade and every functionality of this version have been tested regirously.
+The `v1.1.1` will go through extended testing in 4 testnets independently and have been running for a long period with a large number of validators. these validators joined the latest testnet `sge-network-4` and this upgrade and every functionality of this version have been tested rigorously.
 
 ### Potential risk factors
 
@@ -392,12 +392,12 @@ The following items summarize the voting options and what it means for this prop
       "authority": "sge10d07y265gmmuvt4z0w9aw880jnsr700jyzdmpe",
       "plan": {
         "name": "v1.1.1",
-        "height": 50,
+        "height": 1097000,
         "info": "Upgrade SGE blockchain node application to v1.1.1"
       }
     }
   ],
   "metadata": "Upgrade is a minor upgrade to the SGENET-1 that contains small features and bugfixes such as payout calculation precision and orderbook extended calculations.",
-  "deposit": "512000001usge"
+  "deposit": "5000000000usge"
 }
 ```
